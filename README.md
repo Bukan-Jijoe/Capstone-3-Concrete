@@ -31,6 +31,7 @@ The architure of this model is a simple CNN model consist of Convolutional layer
         - Then, this convolution layer always paired up with pooling layer.
         - This pooling layer then downsample the feature maps produced by the convolutional layers, reducing their spatial dimensions (width and height) while retaining important information. This helps make the network computationally more efficient and reduces the                complexity of the model.
         - Why we need this pooling layer. Well I tell ya, its for Dimensionality Reduction (reducing size) and Prevent Overfitting (making model not remember small details)
+   
    ![Model Summary](https://github.com/user-attachments/assets/bb3c03d5-3e82-435a-a7b4-c162773cbb87)
 
    - Then after done that, we flatten it so we can use it in Neural Network.
